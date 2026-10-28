@@ -1,6 +1,6 @@
 cask "vulnradar" do
-  version "1.0.0"
-  sha256 "4611b0b861c4d9681d2f720031b76ac406f0c59be0c4d668ce37464a8d9d8257"
+  version "1.0.1"
+  sha256 "edacf2205f9dcd44fb45b93906e4cfc4f4bc22f4116469de1c720d57f37017a2"
 
   url "https://github.com/sauravchamoli17/vulnradar/releases/download/v#{version}/VulnRadar.app.zip"
   name "Vulnerability Radar"
