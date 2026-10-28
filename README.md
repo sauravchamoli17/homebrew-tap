@@ -3,8 +3,13 @@
 Homebrew casks for my own tools.
 
 ```bash
+brew tap sauravchamoli17/tap
+brew trust --cask sauravchamoli17/tap/vulnradar
 brew install --cask sauravchamoli17/tap/vulnradar
 ```
+
+Homebrew 6 refuses casks from a third-party tap until you trust them, so the middle
+step is not optional.
 
 | Cask | What it is |
 |------|------------|
