@@ -7,7 +7,7 @@ cask "vulnradar" do
   desc "Tells you which of your projects the latest CVEs actually affect"
   homepage "https://github.com/sauravchamoli17/vulnradar"
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "VulnRadar.app"
 
